@@ -1,5 +1,8 @@
 # School Management System
 
+## 🚀 Live Demo
+Check out the live demo of **Natours**: 👉 [School Management System]([https://natours-ten-nu.vercel.app/](https://school-management-system-gamma-vert.vercel.app/))
+
 ## Getting Started
 
 First, run the development server:
