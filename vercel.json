@@ -1,0 +1,17 @@
+{
+  "version": 2,
+  "buildCommand": "npx prisma generate && npm run build",
+  "installCommand": "npm install",
+  "framework": "nextjs",
+  "builds": [
+    {
+      "src": "package.json",
+      "use": "@vercel/next"
+    }
+  ],
+  "env": {
+    "DATABASE_URL": "@database_url"
+  },
+  "regions": ["iad1"],
+  "public": true
+} 
