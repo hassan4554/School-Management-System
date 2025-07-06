@@ -1,8 +1,12 @@
 # School Management System 
 
+##  Live Demo
+Check out the live demo of **School Management System**: 👉 [School Management System](https://school-management-system-gamma-vert.vercel.app/)
+
+
 ##  Introduction / Overview
 
-**School Management System** is a comprehensive platform designed to streamline the management of students, teachers, parents, classes, lessons, exams, attendance, and more. It provides dedicated dashboards for **admin**, **teachers**, **students**, and **parents**, enabling efficient communication, data management, and real-time updates across the school ecosystem.
+**School Management System** is a comprehensive platform designed to streamline the management of students, teachers, parents, classes, lessons, exams, attendance, and more. It provides dedicated dashboards for **Admin**, **Teachers**, **Students**, and **Parents**, enabling efficient communication, data management, and real-time updates across the school ecosystem.
 
 The system leverages modern web technologies and a robust database schema to ensure scalability, security, and ease of use for all stakeholders.
 
@@ -12,7 +16,7 @@ The system leverages modern web technologies and a robust database schema to ens
 
 - Centralize and digitize school operations (attendance, results, events, announcements)
 - Enable role-based access and workflows for admin, teachers, students, and parents
-- Provide real-time updates and notifications
+- Provide updates and notifications
 - Ensure secure data management and privacy
 - Offer a user-friendly, responsive interface for all users
 
@@ -57,7 +61,7 @@ The system leverages modern web technologies and a robust database schema to ens
 ###  Teacher Features
 - Manage classes, lessons, assignments, exams
 - Record attendance and results
-- View and communicate with students and parents
+- View and communicate with students and parents through announcements
 
 ###  Admin Features
 - Full CRUD for all entities (students, teachers, parents, classes, etc.)
@@ -75,7 +79,7 @@ The system leverages modern web technologies and a robust database schema to ens
 - **Frontend**: Next.js, Tailwind CSS, Clerk
 - **Backend**: Next.js, Prisma ORM
 - **Database**: PostgreSQL
-- **Other**: Zod (validation), React Hook Form, Recharts, Cloudinary (media), TypeScript
+- **Other**: Zod (validation), React Hook Form, Recharts, Cloudinary (media), TypeScript, Supabase (Database cloud)
 
 ---
 
@@ -97,6 +101,8 @@ The system leverages modern web technologies and a robust database schema to ens
 | Event        | id, title, description, startTime, endTime, classId             |
 | Announcement | id, title, description, date, classId                           |
 
+![ER Diagram](https://crkvtlqdxghwgshmvqwh.supabase.co/storage/v1/object/public/images//School-Management-System-ERD%20.png)
+
 ---
 
 ##  User Journey & Flow Diagram
@@ -112,6 +118,8 @@ Login → View Child Dashboard → Track Attendance/Results → Receive Announce
 
 ###  Admin Flow
 Login → Manage All Entities → Oversee School Data → Post Announcements/Events
+
+![FlowChart Diagram](https://crkvtlqdxghwgshmvqwh.supabase.co/storage/v1/object/public/images//School-Management-System-FD.png)
 
 ---
 
@@ -130,10 +138,11 @@ Login → Manage All Entities → Oversee School Data → Post Announcements/Eve
 ##  Author
 
 **Hassan Mehmood**  
-Full-Stack Developer | Next.js | Prisma | Scalable Web Apps
+Full-Stack Developer | MERN Stack | Next.js | Prisma | Scalable Web Apps
 
 - ✉️ hassanmehmood.here@gmail.com
-
+- 💼 [LinkedIn](https://www.linkedin.com/in/hassanmehmood1098/)  
+- 💻 [GitHub](https://github.com/hassan4554)
 ---
 
 ##  License
