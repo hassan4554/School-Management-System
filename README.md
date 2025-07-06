@@ -20,10 +20,10 @@ The system leverages modern web technologies and a robust database schema to ens
 
 ##  Architecture Overview
 
-- **Frontend**: Next.js (App Router), React, Tailwind CSS, Clerk authentication
-- **Backend**: Next.js API routes, Prisma ORM
+- **Frontend**: Next.js (App Router), Tailwind CSS, Clerk authentication
+- **Backend**: Next.js, Prisma ORM
 - **Database**: PostgreSQL (via Prisma)
-- **Deployment**: Vercel (frontend), PostgreSQL cloud (database)
+- **Deployment**: Vercel (frontend), Supabase (database)
 
 ---
 
@@ -49,7 +49,7 @@ The system leverages modern web technologies and a robust database schema to ens
 
 ##  Key Features
 
-### 👤 Student Features
+###  Student Features
 - View personal profile, results, attendance, timetable
 - Access assignments, exams, and announcements
 - Communicate with teachers (announcements)
